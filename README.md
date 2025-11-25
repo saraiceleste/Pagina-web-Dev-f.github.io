@@ -10,7 +10,9 @@ El proyecto fue construido utilizando un conjunto de herramientas estándar de l
  - HTML5:	Utilizado para definir la estructura semántica del contenido de la página web.
  - CSS3:	Aplicado para la presentación visual (diseño, colores, tipografía y layout).
  - Git:	Sistema de control de versiones distribuido para rastrear cambios en el código de manera eficiente.
- - GitHub:	Plataforma de hosting que aloja el repositorio de Git, facilitando la colaboración y el despliegue del proyecto.## Paleta de colores
+ - GitHub:	Plataforma de hosting que aloja el repositorio de Git, facilitando la colaboración y el despliegue del proyecto.
+   
+## Paleta de colores
 
 | Color             | Hex                                                                |
 | ----------------- | ------------------------------------------------------------------ |
@@ -18,4 +20,5 @@ El proyecto fue construido utilizando un conjunto de herramientas estándar de l
 | Example Color | ![#f8f8f8](https://via.placeholder.com/10/f8f8f8?text=+) #f8f8f8 |
 | Example Color | ![#00b48a](https://via.placeholder.com/10/00b48a?text=+) #00b48a |
 | Example Color | ![#00d1a0](https://via.placeholder.com/10/00b48a?text=+) #00d1a0 |
+
 
