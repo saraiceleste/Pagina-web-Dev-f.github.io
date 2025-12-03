@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
-<!--metadatos-->    
+<!--metadatos-->
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,8 +9,9 @@
     <link rel="stylesheet" href="styles.css">
     <script src="main.js" defer></script>
 </head>
-<body style= "background-color: #1A2A47; font-family: 'Times New Roman', Times, serif;">
-     <header><!--etiqueta semantica de cabecera-->
+
+<body style="background-color: #1A2A47; color: #F0F0F0;  font-family: 'Times New Roman', Times, serif;">
+    <header><!--etiqueta semantica de cabecera-->
         <nav><!--barra de navegacion-->
             <ul><!--lista desordenada-->
                 <li a href="">Sobre nosotros</li>
@@ -17,54 +19,72 @@
                 <li a href="">Contacto</li>
             </ul>
         </nav>
-     </header>
-<!--Informacion principal de mi pagina-->
-<main>
-<!--Seccion inicio--> 
-<section>
-    <h1 >Anywhere Artist Lens</h1>
-    <article>
-         <h1 style="color: #FF6B6B; text-align: center;">Sobre nosotros </h1>
-         <p style="color: #F0F0F0;">Enterate de los mas nuevos eventos</p>
-    </article>
-</section>    
-<!--Seccion Galeria-->
-<section>
-    <h1 style="color: #FF6B6B; text-align: center;">Galería</h1>
-    <div>
-        <img src="img/IMG_5954[1].JPG" alt="Foto de Earth, wind and fire">
-        <h2>Lo mas reciente</h2>
-        <p>Earth, Wind and Fire <strong> conquistó </strong> tierras tapatias</p>
-    </div>
-</section>  
-    <!--formulario-->
-    <section>
-        <h1 style="color: #FF6B6B; text-align: center;">Contacto</h1>
-    <form action="">
-        <label for="">Nombre completo</label>
-        <input type="text" placeholder="Aqui va tu nombre">
-      <label for="">Celular</label>
-        <input type="number" placeholder="Deja tu whats">
-                <label for="">Sabor</label>
-       <div>
-        <label for=""><input type="radio">Chocolate</label>
-         <label for=""><input type="radio">Vainilla</label>
-          <label for=""><input type="radio">Red velvet</label>
-           <label for=""><input type="radio">3 leches</label>
-       </div>
-       <label for="">Extras:</label>
-    </form>
-    </section>
-</main>
- <!--formulario-->
- <footer>
-    <ul>
-        <li><a href="https://www.facebook.com/?locale=es_LA" target="_blank">Facebook</a></li>
-         <li><a href="https://www.instagram.com/___celeste1111?igsh=cGJhOGttbmh0OWtq" target="_blank">Instagram</a></li>
-          <li><a href="https://www.tiktok.com/es-419/" target="_blank">Tiktok</a></li>
-           <li><a href="https://www.youtube.com/watch?v=92cNDwYeXpA" target="_blank">Youtube</a></li>          
-    </ul>
-    <p>2025 Anywhere Artist Lens. Todos los derechos reservados</p>
-</footer>     
+    </header>
+    <!--Informacion principal de mi pagina-->
+    <main>
+        <!--Seccion inicio-->
+        <section>
+            <h1 style="color: #FFE900; text-align: center; text-decoration-style: dashed;">Anywhere Artist Lens</h1>
+            <article>
+                <h1 style="color: #FF6B6B; text-align: center;">Sobre nosotros </h1>
+                <p style="color: #F0F0F0; text-align: center;"><strong> Visión de Conectar el Arte y la
+                        Experiencia</strong></p>
+                <p style="color: #F0F0F0; text-align: center;">En Anywhere Artist Lens, creemos que el arte y la
+                    fotografía son más que simples imágenes: son el reflejo tangible de una historia, un sentimiento o
+                    un momento irrepetible. Nacimos de la pasión por capturar la esencia de la vida, sin importar dónde
+                    se desarrolle.
+
+                    Somos un colectivo dedicado a transformar visiones en realidad visual, especializándonos en
+                    adaptarnos a cualquier entorno geográfico, proyecto o necesidad creativa.</p>
+            </article>
+        </section>
+        <!--Seccion Galeria-->
+        <section>
+            <h1 style="color: #FF6B6B; text-align: center;">Galería</h1>
+            <div style="text-align: center;">
+                <img src="img/IMG_5954[1].JPG" alt="Foto de Earth, wind and fire" width="300" height="200">
+                <img src="img/IMG_5976[1].JPG" alt="Foto de Earth, wind and fire" width="300" height="200">
+                <img src="img/IMG_5978[1].JPG" alt="Foto de Earth, wind and fire" width="300" height="200">
+                <img src="img/IMG_5994[1].JPG" alt="Foto de Earth, wind and fire" width="300" height="200">
+                <h2 style="text-align: center;"><strong>Lo más reciente </strong></h2>
+                <p style="text-align: center;">La noche se iluminó bajo el ritmo inconfundible de <strong>Earth, Wind &
+                        Fire </strong> . La banda legendaria no solo visitó tierras tapatías (Guadalajara, Jalisco),
+                    sino que las conquistó con una actuación electrizante que reafirmó por qué son un pilar del funk,
+                    soul y R&B a nivel mundial.
+                </p>
+            </div>
+        </section>
+        <!--formulario-->
+        <section>
+            <h1 style="color: #FF6B6B; text-align: center;">Contacto</h1>
+            <form action="">
+                <label for="">Nombre completo</label>
+                <input type="text" placeholder="Aqui va tu nombre">
+                <label for="">Celular</label>
+                <input type="number" placeholder="Deja tu whats">
+                <br>
+                <br>
+                <label for=""><strong>Opciones </strong></label>
+                <div>
+                    <label for=""><input type="radio">Quiero cotizar y reservar un servicio...</label>
+                    <label for=""><input type="radio">Propuesta de Colaboración o Asociación...</label>
+                    <label for=""><input type="radio">Consulta sobre Licencia o Compra de una Obra/Foto...</label>
+                    <label for=""><input type="radio">Otro motivo</label>
+                </div>
+                <label for="">Redes de contacto:</label>
+            </form>
+        </section>
+    </main>
+    <!--footer-->
+    <footer>
+        <ul>
+            <li><a href="https://www.facebook.com/?locale=es_LA" target="_blank">Facebook</a></li>
+            <li><a href="https://www.instagram.com/___celeste1111?igsh=cGJhOGttbmh0OWtq" target="_blank">Instagram</a>
+            </li>
+            <li><a href="https://www.tiktok.com/es-419/" target="_blank">Tiktok</a></li>
+            <li><a href="https://www.youtube.com/watch?v=92cNDwYeXpA" target="_blank">Youtube</a></li>
+        </ul>
+        <p style="text-align: center;">2025 Anywhere Artist Lens. Todos los derechos reservados</p>
+    </footer>
 </body>
 </html>
